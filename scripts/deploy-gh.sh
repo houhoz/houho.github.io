@@ -1,7 +1,7 @@
 ###
  # @Author: your name
  # @Date: 2021-03-24 14:11:04
- # @LastEditTime: 2021-03-24 14:11:39
+ # @LastEditTime: 2021-03-24 14:13:46
  # @LastEditors: Please set LastEditors
  # @Description: In User Settings Edit
  # @FilePath: /myblog/scripts/deploy-gh.sh
@@ -31,6 +31,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-git push -f git@github.com:houhoz.git master:gh-pages
+git push -f git@github.com:houhoz/houhoz.github.io.git master:gh-pages
 
 cd -
