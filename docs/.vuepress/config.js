@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-24 12:59:57
- * @LastEditTime: 2021-04-06 18:49:19
+ * @LastEditTime: 2021-04-06 18:58:28
  * @LastEditors: houyazhao
  * @Description: In User Settings Edit
  * @FilePath: /myblog/docs/.vuepress/config.js
@@ -27,7 +27,7 @@ module.exports = {
     sidebar: {
       '/html/': [
         '',
-        '基金111',
+        'test',
       ],
       '/css/': ['']
     }
