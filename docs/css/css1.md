@@ -1,4 +1,4 @@
 ---
-sidebar: 'auto'
+sidebar: auto
 ---
 # fff

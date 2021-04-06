@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-24 12:59:57
- * @LastEditTime: 2021-04-06 16:49:33
+ * @LastEditTime: 2021-04-06 18:49:19
  * @LastEditors: houyazhao
  * @Description: In User Settings Edit
  * @FilePath: /myblog/docs/.vuepress/config.js
@@ -24,6 +24,12 @@ module.exports = {
       },
       { text: "关于我", link: "/about/README.md" },
     ],
-    sidebar: 'auto',
+    sidebar: {
+      '/html/': [
+        '',
+        '基金111',
+      ],
+      '/css/': ['']
+    }
   },
 };
