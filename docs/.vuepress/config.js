@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-24 12:59:57
- * @LastEditTime: 2021-04-06 18:58:28
+ * @LastEditTime: 2021-04-07 10:16:22
  * @LastEditors: houyazhao
  * @Description: In User Settings Edit
  * @FilePath: /myblog/docs/.vuepress/config.js
@@ -22,12 +22,12 @@ module.exports = {
           { text: "JavaScript", link: "/javascript/" },
         ],
       },
-      { text: "关于我", link: "/about/README.md" },
+      { text: "关于我", link: "/about/index.html" },
     ],
     sidebar: {
       '/html/': [
-        '',
-        'test',
+        'index.html',
+        'test.html',
       ],
       '/css/': ['']
     }
